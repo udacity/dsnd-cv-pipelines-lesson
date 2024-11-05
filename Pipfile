@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+matplotlib = "3.9.2"
+numpy = "2.1.2"
+scikit-learn = "1.5.2"
+jupyter = "1.1.1"
+seaborn = "0.13.2"
+opencv-python = "4.10.0.84"
+skorch = "1.0.0"
+torch = "2.5.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
